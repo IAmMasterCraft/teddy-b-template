@@ -9,3 +9,11 @@ html, body {
 .secondary-bg {
     background-color: #FFC8DD;
 }
+
+.card {
+    height: 300px;
+}
+
+.card-shadow {
+    box-shadow: 0px 4px 4px 5px rgba(23, 1, 31, 0.4);
+}
