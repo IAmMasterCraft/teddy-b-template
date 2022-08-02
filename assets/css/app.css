@@ -2,6 +2,19 @@ html, body {
     font-family: 'Raleway', sans-serif;
 }
 
+.active-nav {
+    position: relative;
+}
+
+.active-nav::before {
+    content: "";
+    width: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 2px solid #17011F;
+}
+
 .primary-bg {
     background-color: #17011F;
 }
