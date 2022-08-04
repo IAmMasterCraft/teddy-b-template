@@ -1,5 +1,7 @@
 html, body {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .active-nav {
@@ -49,9 +51,6 @@ html, body {
 
 .contact-form{
    /* margin: 0px, -30px, 10px, 0px;*/
-    width: 420px;
-    height: 518px;
-    left: 346px;
     background-color: #FFFFFF;
     /*top: 391px;*/
 }
@@ -65,19 +64,14 @@ html, body {
     top: 494px;
 }
 
-.slideicons{
-    background-color: #17011F;
-}
-
 .testimonial-card{
-    height: 202px;
-    width: 470px;
-    left: 485px;
-    top: 813px;
     border-radius: 10px;
-
 }
 
 .mt-n5 {
     margin-top: -4.5rem;
+}
+
+.pointer {
+    cursor: pointer;
 }
