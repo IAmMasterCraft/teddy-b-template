@@ -40,3 +40,44 @@ html, body {
     left: 7%;
     top: 22%;
 }
+
+.nav-items li{
+    list-style: none;
+    margin-right: 100px;
+
+}
+
+.contact-form{
+   /* margin: 0px, -30px, 10px, 0px;*/
+    width: 420px;
+    height: 518px;
+    left: 346px;
+    background-color: #FFFFFF;
+    /*top: 391px;*/
+}
+
+.contact-form-fields{
+    margin: 0px, 0px, 0px, 20px;
+    position: absolute;
+    width: 345px;
+    height: 71px;
+    left: 384px;
+    top: 494px;
+}
+
+.slideicons{
+    background-color: #17011F;
+}
+
+.testimonial-card{
+    height: 202px;
+    width: 470px;
+    left: 485px;
+    top: 813px;
+    border-radius: 10px;
+
+}
+
+.mt-n5 {
+    margin-top: -4.5rem;
+}
