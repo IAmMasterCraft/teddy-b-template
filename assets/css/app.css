@@ -4,6 +4,10 @@ html, body {
     padding: 0;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 .active-nav {
     position: relative;
 }
