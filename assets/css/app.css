@@ -26,7 +26,7 @@ html, body {
 }
 
 .card {
-    height: 300px;
+    height: 200px;
 }
 
 .card-shadow {
@@ -74,4 +74,14 @@ html, body {
 
 .pointer {
     cursor: pointer;
+}
+
+.promo-position {
+    top: -5rem;
+}
+
+@media (min-width: 992px) {
+    .promo-position {
+        top: -9rem;
+    }
 }

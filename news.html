@@ -23,7 +23,7 @@
     <div class="">
       <!-- navbar -->
       <header
-        class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 px-4"
+        class="d-none d-lg-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 px-4"
       >
         <a
           href="/"
@@ -37,6 +37,10 @@
           />
         </a>
 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
           <li>
             <a href="./about.html" class="nav-link px-2 link-dark fw-semibold">About Us</a>
@@ -48,7 +52,7 @@
             <a href="./faq.html" class="nav-link px-2 link-dark fw-semibold">FAQs</a>
           </li>
           <li>
-            <a href="./news.html" class="nav-link px-2 link-dark fw-semibold active-nav">News</a>
+            <a href="./news.html" class="nav-link px-2 link-dark fw-semibold">News</a>
           </li>
         </ul>
 
@@ -67,6 +71,55 @@
           </button>
         </div>
       </header>
+
+      <!-- mobile hamburger... -->
+      <nav class="d-lg-none navbar px-2 py-3 mb-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              class="bi me-2"
+              height="80"
+              role="img"
+              src="./assets/images/logo.png"
+            />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+              <li>
+                <a href="./about.html" class="nav-link px-2 link-dark fw-semibold">About Us</a>
+              </li>
+              <li>
+                <a href="./contact.html" class="nav-link px-2 link-dark fw-semibold">Contact</a>
+              </li>
+              <li>
+                <a href="./faq.html" class="nav-link px-2 link-dark fw-semibold">FAQs</a>
+              </li>
+              <li>
+                <a href="./news.html" class="nav-link px-2 link-dark fw-semibold">News</a>
+              </li>
+            </ul>
+    
+            <div class="text-md-end d-grid gap-2">
+              <a href="./buy-power.html" class="btn secondary-bg fw-semibold me-2">
+                Buy Power
+              </a>
+              <button
+                type="button"
+                class="btn btn-dark primary-bg fw-semibold me-2"
+              >
+                Login
+              </button>
+              <button type="button" class="btn btn-dark primary-bg fw-semibold">
+                Signup
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- end of mobile hamburger... -->
       <!-- end of navbar -->
 
       
